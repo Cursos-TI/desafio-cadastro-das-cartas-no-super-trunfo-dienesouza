@@ -28,7 +28,7 @@ int main() {
 
 
     // Saída dos dados em linhas separadas
-    printf("\nCódigo da cidade: %s\nNome da cidade: %s\nPopulação: %d\nÁrea (km²): %f\nPIB: %f\nNúmero de pontos turísticos: %d\n", codigo, nome, populacao, area, pib, pnts_turist);
+    printf("\nCódigo da cidade: %s\nNome da cidade: %s\nPopulação: %d\nÁrea (km²): %.2f\nPIB: %.2f\nNúmero de pontos turísticos: %d\n", codigo, nome, populacao, area, pib, pnts_turist);
 
     return 0;
 }
